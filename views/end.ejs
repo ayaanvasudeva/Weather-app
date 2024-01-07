@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="/end.css">
+
+
+
+  <link rel="icon" href="/favicon.ico?v=2">
+
+<title>Weather app</title>
+</head>
+<div class="container">
+  <div class="widget">
+    <div class="details">
+   
+      <div class="temperature"><%=temp%>°C</div>
+   
+
+    
+      <div class="summary">
+        <p class="precipitation"><%=query%></p>
+         <img src = <%= imageURL%> width = "200px">
+        <p class="summaryText"><%=description%></p>
+       </div>
+      <div class="precipitation">Min temp: <%=min%>°C</div>
+      <div class="wind">Max temp: <%=max%>°C</div>
+      <div class= "wind">Humidity: <%=humidity%>%</p></div>
+      
+      
+    </div>
+    
+  </div>
+</div>
